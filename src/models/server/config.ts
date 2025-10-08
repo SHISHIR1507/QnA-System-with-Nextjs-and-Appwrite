@@ -1,4 +1,6 @@
 import env from "@/app/env";
+console.log("🔍 ENV CHECK:", env.appwrite);
+
 
 import { Client, Users, Avatars, Databases, Storage} from "node-appwrite";
 
